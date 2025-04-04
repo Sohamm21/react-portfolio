@@ -1,0 +1,93 @@
+#navbar-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  top: 15px;
+  width: 100%;
+  z-index: 100;
+}
+
+#navbar {
+  backdrop-filter: blur(2px);
+  color: white;
+  background-image: url('../assets/brush-stroke.svg');
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#navbar-logo {
+  height: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 2vw;
+  display: flex;
+  align-items: center;
+}
+
+#navbar-logo span {
+  font-family: var(--primary-font);
+  margin-right: 10px;
+}
+
+#last-name {
+  color: var(--accent-color);
+}
+
+#navbar-links {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+  padding-top: 5px;
+  font-size: 1.1rem;
+  font-family: var(--secondary-font);
+}
+
+#navbar-links li {
+  cursor: pointer;
+}
+
+#navbar-links a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+#navbar-links li:not(:last-child) a:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background: var(--accent-color);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+#navbar-links li:not(:last-child) a:hover {
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+#navbar-links li:not(:last-child) a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (max-width: 800px) {
+  #navbar-container {
+    top: 40px;
+  }
+  #navbar {
+    background-size: contain;
+  }
+
+  #navbar-links {
+    display: none;
+  }
+}

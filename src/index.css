@@ -1,0 +1,20 @@
+:root {
+  --accent-color: #5c51d6;
+  --background-color: #0d0a1f;
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Quicksand', sans-serif;
+  --primary-color: white;
+}
+
+[data-theme='light'] {
+  --background-color: white;
+  --primary-color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
