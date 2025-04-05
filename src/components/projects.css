@@ -116,3 +116,9 @@
   font-size: 1.3rem;
   transition: .3s ease;
 }
+
+@media screen and (max-width: 800px) {
+  .project-info {
+    justify-content: start;
+  }
+}
