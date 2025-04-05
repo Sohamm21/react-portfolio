@@ -43,6 +43,7 @@
   font-size: 1rem;
   color: white;
   font-weight: bold;
+  transition: all .3s ease;
 }
 
 .project-image {
@@ -123,5 +124,11 @@
   }
   .project-content {
     aspect-ratio: 4/3;
+  }
+  .project-content:hover + .project-date {
+    display: none;
+  }
+  .project-content:hover .project-date {
+    display: none;
   }
 }
