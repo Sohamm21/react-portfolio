@@ -11,7 +11,7 @@
 #navbar {
   backdrop-filter: blur(2px);
   color: white;
-  background-image: url('../assets/b1.svg');
+  background-image: url('https://res.cloudinary.com/dyrv985gb/image/upload/v1743855729/b1_mvqhej.svg');
   display: flex;
   align-items: center;
   justify-content: space-between;

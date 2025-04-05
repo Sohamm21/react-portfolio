@@ -25,8 +25,16 @@ const About = () => {
         </span>
       </div>
       <div id="about-image-container">
-        <img id="brush-stroke-bg" src="./src/assets/brush-strokes-bg.svg" alt="brush-strokes-bg" />
-        <img id="about-image" src="./src/assets/about-image.png" alt="about-logo" />
+        <img
+          id="brush-stroke-bg"
+          src="https://res.cloudinary.com/dyrv985gb/image/upload/v1743855727/brush-strokes-bg_h72kmu.svg"
+          alt="brush-strokes-bg"
+        />
+        <img
+          id="about-image"
+          src="https://res.cloudinary.com/dyrv985gb/image/upload/v1743855729/about-image_usukbl.png"
+          alt="about-logo"
+        />
       </div>
     </div>
   );

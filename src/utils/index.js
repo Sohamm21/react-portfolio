@@ -1,7 +1,7 @@
 export const COMPANY_EXPERIENCE = [
   {
     name: "Onlinesales.ai",
-    logo: "./src/assets/onlinesalesai_logo.jpg",
+    logo: "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855727/onlinesalesai_logo_iyqzys.jpg",
     role: "Software Engineer (Frontend)",
     duration: "June 2024 - Jan 2025",
     technologies: [
@@ -25,7 +25,7 @@ export const COMPANY_EXPERIENCE = [
   },
   {
     name: "Onlinesales.ai",
-    logo: "./src/assets/onlinesalesai_logo.jpg",
+    logo: "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855727/onlinesalesai_logo_iyqzys.jpg",
     role: "Technical Intern (Frontend)",
     duration: "Aug 2023 - May 2024",
     technologies: [
@@ -45,7 +45,7 @@ export const COMPANY_EXPERIENCE = [
   },
   {
     name: "PHN Technology Pvt Ltd",
-    logo: "./src/assets/phn_logo.jpg",
+    logo: "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855728/phn_logo_k8dg1h.jpg",
     role: "AIML & Robotics Intern",
     duration: "June 2023 - July 2023",
     technologies: [
@@ -69,7 +69,7 @@ export const PROJECTS = [
     technologies: ["React", "OAuth", "Google APIs"],
     description: "A Chrome extension for adding bullet point notes to Google Docs just by right clicking the text from any webpage.",
     source: "https://chromewebstore.google.com/detail/docsnap/dkdjpfmbnjglmffmceeeadplmbjmfhob",
-    image: "./src/assets/docSnap.png",
+    image: "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855729/docSnap_iwmumj.png",
     date: "February 2025",
     github: "https://github.com/Sohamm21/DocSnap-Extension",
   },
@@ -78,7 +78,7 @@ export const PROJECTS = [
     technologies: ["React", "TypeScript", "Tailwind CSS"],
     description: "A simple todo app built using React and JsonBlob for storing the data.",
     source: "https://todo-jsonblob.netlify.app/",
-    image: "./src/assets/todo-app.png",
+    image: "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855728/todo-app_o9bhxm.png",
     date: "March 2025",
     github: "https://github.com/Sohamm21/Todo-With-TypeScript-JsonBlob",
   },
@@ -87,7 +87,7 @@ export const PROJECTS = [
     technologies: ["React", "JavaScript", "HTML", "CSS"],
     description: "A web app for text encoding and decoding strings with pretty output.",
     source: "https://encoder-decoder-hub.netlify.app/",
-    image: "./src/assets/encoder-decoder-hub.png",
+    image: "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855726/encoder-decoder-hub_fopbsj.png",
     date: "November 2024",
     github: "https://github.com/Sohamm21/encoder-decoder-hub",
   },
@@ -96,7 +96,7 @@ export const PROJECTS = [
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     description: "A pet adoption website built the frontend as well as the backend using MERN stack.",
     source: "https://pet-adoption-website-liard.vercel.app/",
-    image: "./src/assets/pet-adoption.png",
+    image: "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855734/pet-adoption_ftd97f.png",
     date: "April 2024",
     github: "https://github.com/Sohamm21/pet-adoption-website",
   },
