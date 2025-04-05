@@ -118,6 +118,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .project-info {
+    justify-content: space-evenly;
+  }
   .project-content {
     aspect-ratio: 4/3;
   }
