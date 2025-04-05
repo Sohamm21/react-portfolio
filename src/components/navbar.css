@@ -11,7 +11,7 @@
 #navbar {
   backdrop-filter: blur(2px);
   color: white;
-  background-image: url('../assets/brush-stroke.svg');
+  background-image: url('../assets/b1.svg');
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,6 +28,8 @@
   margin-right: 2vw;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
 #navbar-logo span {
@@ -58,7 +60,7 @@
   position: relative;
 }
 
-#navbar-links li:not(:last-child) a:after {
+#navbar-links li a:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -69,12 +71,22 @@
   transition: width 0.3s ease, left 0.3s ease;
 }
 
-#navbar-links li:not(:last-child) a:hover {
+#dark-mode-toggle {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar-links li a:hover {
   color: var(--accent-color);
   transition: color 0.3s ease;
 }
 
-#navbar-links li:not(:last-child) a:hover:after {
+#navbar-links li a:hover:after {
   width: 100%;
   left: 0;
 }
@@ -82,6 +94,7 @@
 @media screen and (max-width: 800px) {
   #navbar-container {
     top: 40px;
+    position: absolute;
   }
   #navbar {
     background-size: contain;
@@ -89,5 +102,9 @@
 
   #navbar-links {
     display: none;
+  }
+
+  #dark-mode-toggle {
+    margin: 1rem 0;
   }
 }

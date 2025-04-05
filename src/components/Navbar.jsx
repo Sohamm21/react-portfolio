@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
+
 import "./navbar.css";
 
 const Navbar = () => {
@@ -10,36 +11,44 @@ const Navbar = () => {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  const renderNavbarLinks = () => {
+    return (
+      <>
+        <li>
+          <a href="#about-container">About</a>
+        </li>
+        <li>
+          <a href="#experience-container">Experience</a>
+        </li>
+        <li>
+          <a href="#projects-section">Projects</a>
+        </li>
+        <li>
+          <a href="#contact-container">Contact</a>
+        </li>
+      </>
+    );
+  };
+
   return (
     <nav id="navbar-container">
       <div id="navbar">
-        <div id="navbar-logo">
+        <a id="navbar-logo" href="/">
           <span>Soham</span>
           <span id="last-name">Kumbhar</span>
-        </div>
+        </a>
         <ul id="navbar-links">
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-          <li>
-            <a href="#dark-mode-toggle" id="dark-mode-toggle">
-              {theme === "dark" ? (
-                <FaSun id="light-mode-icon" onClick={() => setTheme("light")} />
-              ) : (
-                <FaMoon id="dark-mode-icon" onClick={() => setTheme("dark")} />
-              )}
-            </a>
-          </li>
+          {renderNavbarLinks()}
         </ul>
+        <div id="navbar-icons">
+          <a id="dark-mode-toggle">
+            {theme === "dark" ? (
+              <FaSun id="light-mode-icon" onClick={() => setTheme("light")} />
+            ) : (
+              <FaMoon id="dark-mode-icon" onClick={() => setTheme("dark")} />
+            )}
+          </a>
+        </div>
       </div>
     </nav>
   );

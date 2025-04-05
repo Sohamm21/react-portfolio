@@ -2,7 +2,7 @@
   background-image: url('../assets/experience-bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 115vh;
   display: flex;
   align-items: center;
 }

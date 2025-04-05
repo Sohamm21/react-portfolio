@@ -71,6 +71,7 @@ export const PROJECTS = [
     source: "https://chromewebstore.google.com/detail/docsnap/dkdjpfmbnjglmffmceeeadplmbjmfhob",
     image: "./src/assets/docSnap.png",
     date: "February 2025",
+    github: "https://github.com/Sohamm21/DocSnap-Extension",
   },
   {
     name: "Todo App with JsonBlob",
@@ -79,6 +80,7 @@ export const PROJECTS = [
     source: "https://todo-jsonblob.netlify.app/",
     image: "./src/assets/todo-app.png",
     date: "March 2025",
+    github: "https://github.com/Sohamm21/Todo-With-TypeScript-JsonBlob",
   },
   {
     name: "Encoder-Decoder Hub",
@@ -87,6 +89,7 @@ export const PROJECTS = [
     source: "https://encoder-decoder-hub.netlify.app/",
     image: "./src/assets/encoder-decoder-hub.png",
     date: "November 2024",
+    github: "https://github.com/Sohamm21/encoder-decoder-hub",
   },
   {
     name: "PawDoption: Pet Adoption Website",
@@ -95,5 +98,6 @@ export const PROJECTS = [
     source: "https://pet-adoption-website-liard.vercel.app/",
     image: "./src/assets/pet-adoption.png",
     date: "April 2024",
+    github: "https://github.com/Sohamm21/pet-adoption-website",
   },
 ]
