@@ -1,5 +1,5 @@
 .projects-section {
-  padding: 3rem;
+  padding: 2rem;
 }
 
 #projects-title {
@@ -30,7 +30,6 @@
   display: flex;
   justify-content: center;
   position: relative;
-  overflow-y: auto;
 }
 
 .project-date {
