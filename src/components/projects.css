@@ -101,7 +101,6 @@
 }
 
 .project-content:hover .project-info {
-  max-height: 100%;
   transform: translateY(0);
 }
 
