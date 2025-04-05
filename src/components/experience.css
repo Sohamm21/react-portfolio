@@ -16,7 +16,7 @@
 }
 
 .experience-cards {
-  padding: 7rem 3rem 10rem 3rem; 
+  padding: 7rem 2rem 10rem 2rem; 
   width: 100%;
 }
 
@@ -154,7 +154,7 @@
 
 @media screen and (max-width: 800px) {
   #experience-container {
-    height: 140vh;
+    height: 150vh;
   }
   #experience-title {
     margin-bottom: 2rem;

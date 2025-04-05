@@ -93,11 +93,14 @@
 
 @media screen and (max-width: 800px) {
   #navbar-container {
-    top: 40px;
-    position: absolute;
+    top: 0;
+    position: fixed;
+    
   }
   #navbar {
-    background-size: contain;
+    background-image: none;
+    background-color: #3f3a965d;
+    backdrop-filter: blur(10px);
   }
 
   #navbar-links {
