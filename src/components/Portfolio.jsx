@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import About from "./About";
 import Experience from "./Experience";
+import Projects from "./Projects";
 
 const Portfolio = () => {
   return (
@@ -13,6 +14,7 @@ const Portfolio = () => {
       <Header />
       <About />
       <Experience />
+      <Projects />
     </>
   );
 };

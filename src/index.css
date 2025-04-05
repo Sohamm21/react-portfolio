@@ -4,6 +4,8 @@
   --primary-font: 'Poppins', sans-serif;
   --secondary-font: 'Quicksand', sans-serif;
   --primary-color: white;
+  --small-screen-primary-font-size: 1.7rem;
+  --small-screen-secondary-font-size: 1rem;
 }
 
 [data-theme='light'] {
@@ -18,3 +20,16 @@ body {
   transition: background-color 0.5s ease, color 0.5s ease;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1px solid black;
+  background: var(--accent-color);
+  border-radius: 10px;
+}

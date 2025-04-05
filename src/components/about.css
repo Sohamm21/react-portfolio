@@ -69,10 +69,10 @@
     top: 1;
   }
   .about-text {
-    font-size: 1rem;
+    font-size: var(--small-screen-secondary-font-size)
   }
   #about-title {
-    font-size: 1.7rem;
+    font-size: var(--small-screen-primary-font-size);
     margin-bottom: 15px;
   }
 }
