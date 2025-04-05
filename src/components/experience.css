@@ -30,7 +30,7 @@
   border-radius: 20px;
   color: white;
   text-wrap: wrap ;
-  height: 30vh;
+  height: 32vh;
   position: relative;
   flex: 0.5;
   transition:
@@ -154,7 +154,7 @@
 
 @media screen and (max-width: 800px) {
   #experience-container {
-    height: 150vh;
+    height: 180vh;
   }
   #experience-title {
     margin-bottom: 2rem;
@@ -169,7 +169,7 @@
   .experience-card {
     transform: none;
     flex: 1;
-    height: 20vh;
+    height: 25vh;
   }
 }
 
