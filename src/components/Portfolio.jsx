@@ -10,7 +10,10 @@ import Contact from "./Contact";
 const Portfolio = () => {
   return (
     <>
-      <img src="./src/assets/header.svg" id="header-background" />
+      <img
+        src="https://res.cloudinary.com/dyrv985gb/image/upload/v1743855726/header_abngwk.svg"
+        id="header-background"
+      />
       <Navbar />
       <Header />
       <About />
