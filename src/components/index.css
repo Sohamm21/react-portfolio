@@ -14,6 +14,24 @@
   width: 75%;
 }
 
+#resume-button {
+  background-color: transparent;
+  color: white;
+  padding: 5px 20px;
+  border: 2px solid white;
+  font-size: 1.2rem;
+  font-family: var(--primary-font);
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+#resume-button:hover {
+  background-color: var(--accent-color);
+}
+
 #name-container {
   display: flex;
   flex-direction: column;
@@ -68,5 +86,20 @@
     align-items: center;
     width: 100%;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #intro-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #intro-text-container {
+    height: 3rem;
+  }
+  #resume-button {
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 5px 15px;
   }
 }

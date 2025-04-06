@@ -53,6 +53,7 @@
   appearance: none;
   height: 10rem;
   padding: 0.5rem;
+  resize: none;
 }
 
 .contact-input:focus {

@@ -21,6 +21,16 @@ const Header = () => {
           }}
         />
       </div>
+      <button
+        id="resume-button"
+        onClick={() =>
+          window.open(
+            "https://drive.google.com/file/d/1GUiY5BzCQFu97ZGQ-ycCDwjT4NPI_zde/view?usp=sharing"
+          , "_blank")
+        }
+      >
+        Resume
+      </button>
     </header>
   );
 };
