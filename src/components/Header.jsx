@@ -25,8 +25,9 @@ const Header = () => {
         id="resume-button"
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/1GUiY5BzCQFu97ZGQ-ycCDwjT4NPI_zde/view?usp=sharing"
-          , "_blank")
+            "https://drive.google.com/file/d/11N938SoR3EX-QBGYfAioAnilDt0JVZ_d/view?usp=sharing",
+            "_blank"
+          )
         }
       >
         Resume
