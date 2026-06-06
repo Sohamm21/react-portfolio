@@ -79,7 +79,7 @@
 }
 
 .project-description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: white;
   padding: 0 0.5rem;
 }
@@ -90,7 +90,7 @@
   justify-content: center;
   gap: 0.3rem;
   margin-top: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
 .tech {
@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 800px) {
   .project-info {
-    justify-content: start;
+    justify-content: center;
   }
   .project-content {
     aspect-ratio: 4/3;

@@ -110,17 +110,6 @@ export const PROJECTS = [
     github: "https://github.com/Sohamm21/DocSnap-Extension",
   },
   {
-    name: "Todo App with JsonBlob",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    description:
-      "A simple todo app built using React and JsonBlob for storing the data.",
-    source: "https://todo-jsonblob.netlify.app/",
-    image:
-      "https://res.cloudinary.com/dyrv985gb/image/upload/v1743855728/todo-app_o9bhxm.png",
-    date: "March 2025",
-    github: "https://github.com/Sohamm21/Todo-With-TypeScript-JsonBlob",
-  },
-  {
     name: "PawDoption: Pet Adoption Website",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
     description:

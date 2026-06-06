@@ -1,16 +1,35 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./experience.css";
 
 import { COMPANY_EXPERIENCE } from "../utils";
 
 const Experience = () => {
+  const [expandedIndex, setExpandedIndex] = useState(null);
+
+  useEffect(() => {
+    const collapse = (e) => {
+      if (!e.target.closest('.experience-card')) {
+        setExpandedIndex(null);
+      }
+    };
+    window.addEventListener('click', collapse);
+    return () => window.removeEventListener('click', collapse);
+  }, []);
+
   return (
     <div id="experience-container">
       <div className="experience-cards">
         <h2 id="experience-title">Experience</h2>
         <div className="experience-cards-container">
           {COMPANY_EXPERIENCE.map((experience, index) => (
-            <div key={index} className="experience-card">
+            <div
+              key={index}
+              className={`experience-card ${expandedIndex === index ? 'expanded' : ''}`}
+              onClick={(e) => {
+                e.stopPropagation();
+                setExpandedIndex(expandedIndex === index ? null : index);
+              }}
+            >
               <img
                 src={experience.logo}
                 alt={`${experience.name} logo`}
